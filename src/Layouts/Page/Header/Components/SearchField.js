@@ -5,15 +5,17 @@ import IconOnlyButton from '../../../../Components/IconOnlyButton';
 const WrapperInput = styled.div`
     position:relative;
     width: 216px;
+    height: 34px;
 `;
 
 const Input = styled.input`
     outline: none;
-    border-radius: 0px;
-    border: #152842 1px;
-    border-radius: 24 px;
+    border: 1px solid #E2E8F0;
+    border-radius: 24px;
     background-color: #F8FAFC;
-    color: #152842;
+    color: #94A3B8;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 16px;
     width: 100%;
     &:hover {
         background: CFDDE8 100%;
@@ -24,9 +26,8 @@ const Input = styled.input`
 `;
 
 const SearchIconWrapper = styled.div`
-    background-color: #94A3B8;
     position: absolute;
-    box-sizing:border-box;
+    box-sizing: border-box;
     right: 16px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
     top:50%;
     transform: translateY(-50%);

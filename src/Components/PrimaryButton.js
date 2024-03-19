@@ -12,7 +12,7 @@ function PrimaryButton(props) {
         color: white;
         border-radius: 24px;
         padding: 8px, 16px, 8px, 16px;
-        gap: 16px:
+        gap: 16px;
         &:hover {
             background: #0F172A;
             opacity: 60%;
