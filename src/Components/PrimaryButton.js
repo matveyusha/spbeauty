@@ -5,18 +5,21 @@ import styled from "styled-components";
 
 function PrimaryButton(props) {
     // Здесь устанавливается минимальная ширина для кнопки
-    let minWidth = props.minWidth === undefined ? '144px' : props.minWidth; 
+    let minWidth = props.minWidth === undefined ? '217px' : props.minWidth; 
     const Button = styled.div`
-        background: #4B759E;
-        border: 1px solid #152842;
-        box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
+        background: #3B82F6;
         min-width: ${minWidth};
         color: white;
+        border-radius: 24px;
+        padding: 8px, 16px, 8px, 16px;
+        gap: 16px:
         &:hover {
-            background: linear-gradient(180deg, #4D9FF0 0%, #36699D 100%);
+            background: #0F172A;
+            opacity: 60%;
         }
         &:active {
-            background: #152842;
+            background: #E2E8F0;
+            opacity: 40%;
         }
     `;
     return (
