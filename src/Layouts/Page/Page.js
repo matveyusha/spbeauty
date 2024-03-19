@@ -5,7 +5,7 @@ function Page() {
   return (
     <div className='flex-grow-1'>
       <Header/>
-      <div className='container'>  {/* Bootstrap контейнер */}
+      <div style ={{margin: '72px'}} className='container'>
         <AboutCompany/>  {/* Страница выбирается нажатием на сайдбаре. Сейчас это только AboutCOmpany. */}
       </div>
     </div>
